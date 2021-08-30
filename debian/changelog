@@ -1,0 +1,10 @@
+ros-galactic-micro-ros-msgs (1.0.0-1focal) focal; urgency=high
+
+  * Remove not necessary dependencies (#1 <https://github.com/micro-ROS/micro_ros_msgs/issues/1>)
+  * Add issue template
+  * Add msg definitions used by micro-ROS graph manager
+  * Update README.md
+
+ -- Jose Antonio Moral <josesantoniomoralparras@eprosima.com>  Sun, 29 Aug 2021 22:00:00 -0000
+
+
