@@ -1,0 +1,12 @@
+Source: ros-humble-micro-ros-msgs
+Section: misc
+Priority: optional
+Maintainer: Jose Antonio Moral <josesantoniomoralparras@eprosima.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ament-lint-common <!nocheck>, ros-humble-rosidl-default-generators, ros-humble-ros-workspace, ros-humble-rosidl-typesupport-fastrtps-c, ros-humble-rosidl-typesupport-fastrtps-cpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-micro-ros-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-rosidl-default-runtime, ros-humble-ros-workspace
+Description: Definitions for the ROS 2 msgs entities information used by micro-ROS to leverage its functionality to the same level as ROS 2, by means of a dedicated graph manager
